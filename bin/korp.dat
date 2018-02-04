@@ -1,0 +1,160 @@
+ *****          file of input data set *******
+:poly
+ &vvod                                                                                       
+   nsos=1,2,3,
+   r=0.398,0.455,0.669,                                       
+@ ------------------------------------------------------------------------------
+ t=        1.00000e+03, 600.0, 579.0,
+ troiz=
+ @ izotop    / fuel /     / km /       / mod /   
+ @ U235  @   0.000883227, 0.00000e+00, 0.00000e+00, 
+ @ U238  @   0.019190107, 0.00000e+00, 0.00000e+00, 
+ @ O     @   0.040146670, 0.00000e+00, 0.00000e+00, 
+ @ Zr    @   0.00000e+00, 0.04301,     0.00000e+00,
+ @ *H*   @   0.00000e+00, 0.00000e+00, 0.046838+00,
+ @  D    @   0.00000e+00, 0.00000e+00, 0.000000+00,
+ @ *O*   @   0.00000e+00, 0.00000e+00, 0.023419+00,
+@-------------------------------------------------------------------------------------
+ 
+ material(1)='chmc',
+ &end
+U235
+U238
+O
+Zr
+*H*
+D
+*O*
+****
+:macro                         
+ &vvod ET=10.5E+6,2.15,2.15,0.,
+ nbv=1,0,3,                    
+ &end                          
+:micro                         
+ &vvod ET=10.5E+6,2.15,2.15,0.,
+ nbv=1,0,3,                    
+ &end                          
+:fier
+ &vvod &end
+:stop
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:burn
+ &vvod qv=110.,dtim=50.,
+ &end
+:corr
+ &vvod &end
+:stop

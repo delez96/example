@@ -1,0 +1,2337 @@
+ *****          file of input data set *******
+:poly
+ &vvod
+   nsos=1,2,3,
+   r=0.29,0.34,0.48,
+@ ------------------------------------------------------------------------------
+ t=        1.00000e+03, 600.0, 579.0,
+ troiz=
+ @ izotop    / fuel /     / km /       / cool /     / mod /
+ @ u233  @   0.00101e-01, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ u238  @   0.01423e-01, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ o     @   0.03408e-01, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ zr    @   0.00000e+00, 0.04301e+00, 0.00000e+00, 0.00000e+00,
+ @ *h*   @   0.04683e-07, 0.00000e+00, 0.046838+00, 0.046838+00,
+ @ *o*   @   0.02341e-07, 0.00000e+00, 0.023419+00, 0.023419+00,
+ @  c    @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00001e-14,
+ @ u236  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ slag  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ tc99  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ rh03  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ ag09  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ cd13  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ xe35  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ sm49  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ sm51  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ eu55  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ gd55  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ gd56  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ gd57  @   0.00010e-04, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ np37  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ np39  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pu38  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pu39  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pu40  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pu41  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pu42  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ am41  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ am2m  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ am43  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ cm42  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ cm44  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ cm45  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ sm52  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ xe31  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ cs33  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ nd45  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ nd43  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pm47  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ mo95  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ cs34  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pr41  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pm48  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pm8m  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ rh05  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pm49  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ kr83  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ ru01  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ pd05  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ cs35  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ sm50  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ eu51  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ eu53  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ eu54  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ gd54  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ am42  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+ @ cm43  @   0.00000e+00, 0.00000e+00, 0.00000e+00, 0.00000e+00,
+                                                                                                                        
+@-------------------------------------------------------------------------------------
+ material(1)='chmc',
+ &end
+u233
+u238
+o
+zr
+*h*
+*o*
+c
+u236
+slag
+tc99
+rh03
+ag09
+cd13
+xe35
+sm49
+sm51
+eu55
+gd55
+gd56
+gd57
+np37
+np39
+pu38
+pu39
+pu40
+pu41
+pu42
+am41
+am2m
+am43
+cm42
+cm44
+cm45
+sm52
+xe31
+cs33
+nd45
+nd43
+pm47
+mo95
+cs34
+pr41
+pm48
+pm8m
+rh05
+pm49
+kr83
+ru01
+pd05
+cs35
+sm50
+eu51
+eu53
+eu54
+gd54
+am42
+cm43
+****
+:fier
+ &vvod &end
+@ 1 step - 5.0 days!----------
+:burn
+ &vvod qv=120.,dtim=5.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+@ 2 step - 50. days!----------
+:burn
+ &vvod qv=120.,dtim=10.,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+:stop
+ ***** end of   file of input data set *******
+:poly                                                                           
+ definition izotr in sos           1:izotr=   2.000000    
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--cefzad  -- programm standart value --cefzad  =  0.100000E+01
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--bakl    -- programm standart value --bakl    =  0.000000E+00
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--alin    -- programm standart value --alin    =  0.000000E+00
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--alout   -- programm standart value --alout   =  0.100000E+01
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--alcorr  -- programm standart value --alcorr  =  0.100000E+01
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--nbv     -- programm standart value --nbv     =    1    1    1
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--et      -- programm standart value --et      =  0.105000E+08  0.215000E+01
+     0.215000E+01  0.000000E+00
+    ????  storage for pr. getter =      300 ?? common /rrr/ rab(        0 )  ????
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.29000E+00 0.34000E+00 0.48000E+00
+ temper   0.10000E+04 0.60000E+03 0.57900E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=63
+  1 u233     0.10100E-03 0.00000E+00 0.00000E+00
+  2 u238     0.14230E-02 0.00000E+00 0.00000E+00
+  3 o        0.34080E-02 0.00000E+00 0.00000E+00
+  4 zr       0.00000E+00 0.43010E-01 0.00000E+00
+  5 *h*      0.46830E-08 0.00000E+00 0.46838E-01
+  6 *o*      0.23410E-08 0.00000E+00 0.23419E-01
+ 20 gd57     0.10000E-07 0.00000E+00 0.00000E+00
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp= 1000K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  300K
+    >>  K-inf(MLT)= 1.10154 Balance= 1.00330 NU= 2.59 FI-Sum=  1.32E+03
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.40246     ***k(itt)= 1.40247     ***k(integ)= 1.40246    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.4025       2.0979       1.0638      0.86395      0.72739    
+ s0z(n)=    1.032323      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   2.6767     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp= 1000K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  300K
+    >>  K-inf(MLT)= 1.07545 Balance= 1.00340 NU= 2.59 FI-Sum=  1.33E+03
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.35477     ***k(itt)= 1.35477     ***k(integ)= 1.35477    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.29000E+00 0.34000E+00 0.48000E+00
+ temper   0.10000E+04 0.60000E+03 0.57900E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=63
+  1 u233     0.96314E-04 0.00000E+00 0.00000E+00
+  2 u238     0.14220E-02 0.00000E+00 0.00000E+00
+  3 o        0.34080E-02 0.00000E+00 0.00000E+00
+  4 zr       0.00000E+00 0.43010E-01 0.00000E+00
+  5 *h*      0.46830E-08 0.00000E+00 0.46838E-01
+  6 *o*      0.23410E-08 0.00000E+00 0.23419E-01
+  8 u236     0.54966E-11 0.00000E+00 0.00000E+00
+  9 slag     0.21269E-05 0.00000E+00 0.00000E+00
+ 10 tc99     0.26563E-06 0.00000E+00 0.00000E+00
+ 11 rh03     0.13640E-06 0.00000E+00 0.00000E+00
+ 12 ag09     0.16014E-08 0.00000E+00 0.00000E+00
+ 13 cd13     0.15523E-09 0.00000E+00 0.00000E+00
+ 14 xe35     0.83346E-09 0.00000E+00 0.00000E+00
+ 15 sm49     0.36547E-08 0.00000E+00 0.00000E+00
+ 16 sm51     0.10583E-07 0.00000E+00 0.00000E+00
+ 17 eu55     0.11704E-08 0.00000E+00 0.00000E+00
+ 18 gd55     0.67825E-12 0.00000E+00 0.00000E+00
+ 19 gd56     0.36356E-09 0.00000E+00 0.00000E+00
+ 20 gd57     0.91676E-10 0.00000E+00 0.00000E+00
+ 21 np37     0.28112E-14 0.00000E+00 0.00000E+00
+ 22 np39     0.50083E-06 0.00000E+00 0.00000E+00
+ 23 pu38     0.10083E-16 0.00000E+00 0.00000E+00
+ 24 pu39     0.43565E-06 0.00000E+00 0.00000E+00
+ 25 pu40     0.76647E-08 0.00000E+00 0.00000E+00
+ 26 pu41     0.14247E-09 0.00000E+00 0.00000E+00
+ 27 pu42     0.10544E-11 0.00000E+00 0.00000E+00
+ 28 am41     0.19417E-13 0.00000E+00 0.00000E+00
+ 29 am2m     0.20292E-16 0.00000E+00 0.00000E+00
+ 30 am43     0.13610E-14 0.00000E+00 0.00000E+00
+ 31 cm42     0.76654E-16 0.00000E+00 0.00000E+00
+ 32 cm44     0.31340E-17 0.00000E+00 0.00000E+00
+ 34 sm52     0.16160E-07 0.00000E+00 0.00000E+00
+ 35 xe31     0.11984E-06 0.00000E+00 0.00000E+00
+ 36 cs33     0.29131E-06 0.00000E+00 0.00000E+00
+ 37 nd45     0.16906E-06 0.00000E+00 0.00000E+00
+ 38 nd43     0.25326E-06 0.00000E+00 0.00000E+00
+ 39 pm47     0.98621E-07 0.00000E+00 0.00000E+00
+ 40 mo95     0.28079E-06 0.00000E+00 0.00000E+00
+ 41 cs34     0.61347E-09 0.00000E+00 0.00000E+00
+ 42 pr41     0.25139E-06 0.00000E+00 0.00000E+00
+ 43 pm48     0.47647E-09 0.00000E+00 0.00000E+00
+ 44 pm8m     0.27141E-09 0.00000E+00 0.00000E+00
+ 45 rh05     0.69425E-08 0.00000E+00 0.00000E+00
+ 46 pm49     0.18023E-07 0.00000E+00 0.00000E+00
+ 47 kr83     0.23547E-07 0.00000E+00 0.00000E+00
+ 48 ru01     0.21965E-06 0.00000E+00 0.00000E+00
+ 49 pd05     0.12013E-07 0.00000E+00 0.00000E+00
+ 50 cs35     0.77116E-08 0.00000E+00 0.00000E+00
+ 51 sm50     0.13580E-07 0.00000E+00 0.00000E+00
+ 52 eu51     0.37903E-10 0.00000E+00 0.00000E+00
+ 53 eu53     0.22442E-09 0.00000E+00 0.00000E+00
+ 54 eu54     0.19786E-11 0.00000E+00 0.00000E+00
+ 55 gd54     0.54656E-15 0.00000E+00 0.00000E+00
+ 56 am42     0.11326E-15 0.00000E+00 0.00000E+00
+ 57 cm43     0.18871E-19 0.00000E+00 0.00000E+00
+ 60 u235     0.21556E-08 0.00000E+00 0.00000E+00
+ 63 u234     0.40110E-06 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.3548       2.0266       1.0635      0.86450      0.72709    
+ s0z(n)=    1.032323      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   7.9964     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp= 1000K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  300K
+    >>  K-inf(MLT)= 1.02672 Balance= 1.00362 NU= 2.59 FI-Sum=  1.35E+03
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.30761     ***k(itt)= 1.30761     ***k(integ)= 1.30761    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.29000E+00 0.34000E+00 0.48000E+00
+ temper   0.10000E+04 0.60000E+03 0.57900E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=63
+  1 u233     0.87266E-04 0.00000E+00 0.00000E+00
+  2 u238     0.14200E-02 0.00000E+00 0.00000E+00
+  3 o        0.34080E-02 0.00000E+00 0.00000E+00
+  4 zr       0.00000E+00 0.43010E-01 0.00000E+00
+  5 *h*      0.46830E-08 0.00000E+00 0.46838E-01
+  6 *o*      0.23410E-08 0.00000E+00 0.23419E-01
+  8 u236     0.15108E-09 0.00000E+00 0.00000E+00
+  9 slag     0.63513E-05 0.00000E+00 0.00000E+00
+ 10 tc99     0.78817E-06 0.00000E+00 0.00000E+00
+ 11 rh03     0.40466E-06 0.00000E+00 0.00000E+00
+ 12 ag09     0.67393E-08 0.00000E+00 0.00000E+00
+ 13 cd13     0.17308E-09 0.00000E+00 0.00000E+00
+ 14 xe35     0.79768E-09 0.00000E+00 0.00000E+00
+ 15 sm49     0.50645E-08 0.00000E+00 0.00000E+00
+ 16 sm51     0.17328E-07 0.00000E+00 0.00000E+00
+ 17 eu55     0.26255E-08 0.00000E+00 0.00000E+00
+ 18 gd55     0.19578E-11 0.00000E+00 0.00000E+00
+ 19 gd56     0.68193E-09 0.00000E+00 0.00000E+00
+ 20 gd57     0.16084E-09 0.00000E+00 0.00000E+00
+ 21 np37     0.23836E-12 0.00000E+00 0.00000E+00
+ 22 np39     0.66238E-06 0.00000E+00 0.00000E+00
+ 23 pu38     0.31404E-14 0.00000E+00 0.00000E+00
+ 24 pu39     0.19199E-05 0.00000E+00 0.00000E+00
+ 25 pu40     0.11691E-06 0.00000E+00 0.00000E+00
+ 26 pu41     0.70080E-08 0.00000E+00 0.00000E+00
+ 27 pu42     0.17397E-09 0.00000E+00 0.00000E+00
+ 28 am41     0.30155E-11 0.00000E+00 0.00000E+00
+ 29 am2m     0.87222E-14 0.00000E+00 0.00000E+00
+ 30 am43     0.73389E-12 0.00000E+00 0.00000E+00
+ 31 cm42     0.63346E-13 0.00000E+00 0.00000E+00
+ 32 cm44     0.54836E-14 0.00000E+00 0.00000E+00
+ 33 cm45     0.90039E-17 0.00000E+00 0.00000E+00
+ 34 sm52     0.61857E-07 0.00000E+00 0.00000E+00
+ 35 xe31     0.35444E-06 0.00000E+00 0.00000E+00
+ 36 cs33     0.86364E-06 0.00000E+00 0.00000E+00
+ 37 nd45     0.49934E-06 0.00000E+00 0.00000E+00
+ 38 nd43     0.73193E-06 0.00000E+00 0.00000E+00
+ 39 pm47     0.28507E-06 0.00000E+00 0.00000E+00
+ 40 mo95     0.83125E-06 0.00000E+00 0.00000E+00
+ 41 cs34     0.55925E-08 0.00000E+00 0.00000E+00
+ 42 pr41     0.74661E-06 0.00000E+00 0.00000E+00
+ 43 pm48     0.28396E-08 0.00000E+00 0.00000E+00
+ 44 pm8m     0.10751E-08 0.00000E+00 0.00000E+00
+ 45 rh05     0.87507E-08 0.00000E+00 0.00000E+00
+ 46 pm49     0.24002E-07 0.00000E+00 0.00000E+00
+ 47 kr83     0.68597E-07 0.00000E+00 0.00000E+00
+ 48 ru01     0.65321E-06 0.00000E+00 0.00000E+00
+ 49 pd05     0.49240E-07 0.00000E+00 0.00000E+00
+ 50 cs35     0.22618E-07 0.00000E+00 0.00000E+00
+ 51 sm50     0.79496E-07 0.00000E+00 0.00000E+00
+ 52 eu51     0.66590E-09 0.00000E+00 0.00000E+00
+ 53 eu53     0.26973E-08 0.00000E+00 0.00000E+00
+ 54 eu54     0.63797E-10 0.00000E+00 0.00000E+00
+ 55 gd54     0.52257E-13 0.00000E+00 0.00000E+00
+ 56 am42     0.28397E-13 0.00000E+00 0.00000E+00
+ 57 cm43     0.51642E-16 0.00000E+00 0.00000E+00
+ 60 u235     0.18922E-07 0.00000E+00 0.00000E+00
+ 63 u234     0.11618E-05 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.3076       1.9743       1.0610      0.86573      0.72106    
+ s0z(n)=    1.032323      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   13.338     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp= 1000K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  300K
+    >>  K-inf(MLT)= 0.97701 Balance= 1.00384 NU= 2.59 FI-Sum=  1.38E+03
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.26033     ***k(itt)= 1.26033     ***k(integ)= 1.26033    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.29000E+00 0.34000E+00 0.48000E+00
+ temper   0.10000E+04 0.60000E+03 0.57900E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=63
+  1 u233     0.78581E-04 0.00000E+00 0.00000E+00
+  2 u238     0.14178E-02 0.00000E+00 0.00000E+00
+  3 o        0.34080E-02 0.00000E+00 0.00000E+00
+  4 zr       0.00000E+00 0.43010E-01 0.00000E+00
+  5 *h*      0.46830E-08 0.00000E+00 0.46838E-01
+  6 *o*      0.23410E-08 0.00000E+00 0.23419E-01
+  8 u236     0.71879E-09 0.00000E+00 0.00000E+00
+  9 slag     0.10612E-04 0.00000E+00 0.00000E+00
+ 10 tc99     0.13054E-05 0.00000E+00 0.00000E+00
+ 11 rh03     0.67057E-06 0.00000E+00 0.00000E+00
+ 12 ag09     0.14858E-07 0.00000E+00 0.00000E+00
+ 13 cd13     0.18514E-09 0.00000E+00 0.00000E+00
+ 14 xe35     0.75781E-09 0.00000E+00 0.00000E+00
+ 15 sm49     0.52272E-08 0.00000E+00 0.00000E+00
+ 16 sm51     0.18262E-07 0.00000E+00 0.00000E+00
+ 17 eu55     0.35265E-08 0.00000E+00 0.00000E+00
+ 18 gd55     0.25788E-11 0.00000E+00 0.00000E+00
+ 19 gd56     0.85080E-09 0.00000E+00 0.00000E+00
+ 20 gd57     0.19902E-09 0.00000E+00 0.00000E+00
+ 21 np37     0.19285E-11 0.00000E+00 0.00000E+00
+ 22 np39     0.70040E-06 0.00000E+00 0.00000E+00
+ 23 pu38     0.53276E-13 0.00000E+00 0.00000E+00
+ 24 pu39     0.31752E-05 0.00000E+00 0.00000E+00
+ 25 pu40     0.35239E-06 0.00000E+00 0.00000E+00
+ 26 pu41     0.35591E-07 0.00000E+00 0.00000E+00
+ 27 pu42     0.16339E-08 0.00000E+00 0.00000E+00
+ 28 am41     0.26094E-10 0.00000E+00 0.00000E+00
+ 29 am2m     0.11572E-12 0.00000E+00 0.00000E+00
+ 30 am43     0.12289E-10 0.00000E+00 0.00000E+00
+ 31 cm42     0.11340E-11 0.00000E+00 0.00000E+00
+ 32 cm44     0.16338E-12 0.00000E+00 0.00000E+00
+ 33 cm45     0.44905E-15 0.00000E+00 0.00000E+00
+ 34 sm52     0.11224E-06 0.00000E+00 0.00000E+00
+ 35 xe31     0.58519E-06 0.00000E+00 0.00000E+00
+ 36 cs33     0.14291E-05 0.00000E+00 0.00000E+00
+ 37 nd45     0.82276E-06 0.00000E+00 0.00000E+00
+ 38 nd43     0.11780E-05 0.00000E+00 0.00000E+00
+ 39 pm47     0.45932E-06 0.00000E+00 0.00000E+00
+ 40 mo95     0.13731E-05 0.00000E+00 0.00000E+00
+ 41 cs34     0.15805E-07 0.00000E+00 0.00000E+00
+ 42 pr41     0.12376E-05 0.00000E+00 0.00000E+00
+ 43 pm48     0.57684E-08 0.00000E+00 0.00000E+00
+ 44 pm8m     0.18233E-08 0.00000E+00 0.00000E+00
+ 45 rh05     0.10433E-07 0.00000E+00 0.00000E+00
+ 46 pm49     0.26318E-07 0.00000E+00 0.00000E+00
+ 47 kr83     0.11132E-06 0.00000E+00 0.00000E+00
+ 48 ru01     0.10845E-05 0.00000E+00 0.00000E+00
+ 49 pd05     0.94715E-07 0.00000E+00 0.00000E+00
+ 50 cs35     0.36791E-07 0.00000E+00 0.00000E+00
+ 51 sm50     0.15552E-06 0.00000E+00 0.00000E+00
+ 52 eu51     0.19520E-08 0.00000E+00 0.00000E+00
+ 53 eu53     0.87846E-08 0.00000E+00 0.00000E+00
+ 54 eu54     0.32083E-09 0.00000E+00 0.00000E+00
+ 55 gd54     0.43816E-12 0.00000E+00 0.00000E+00
+ 56 am42     0.28976E-12 0.00000E+00 0.00000E+00
+ 57 cm43     0.16653E-14 0.00000E+00 0.00000E+00
+ 60 u235     0.51339E-07 0.00000E+00 0.00000E+00
+ 63 u234     0.18718E-05 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.2603       1.9242       1.0584      0.86697      0.71381    
+ s0z(n)=    1.032323      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   18.692     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp= 1000K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  300K
+    >>  K-inf(MLT)= 0.92599 Balance= 1.00406 NU= 2.60 FI-Sum=  1.40E+03
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.21014     ***k(itt)= 1.21015     ***k(integ)= 1.21014    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.29000E+00 0.34000E+00 0.48000E+00
+ temper   0.10000E+04 0.60000E+03 0.57900E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=63
+  1 u233     0.70257E-04 0.00000E+00 0.00000E+00
+  2 u238     0.14156E-02 0.00000E+00 0.00000E+00
+  3 o        0.34080E-02 0.00000E+00 0.00000E+00
+  4 zr       0.00000E+00 0.43010E-01 0.00000E+00
+  5 *h*      0.46830E-08 0.00000E+00 0.46838E-01
+  6 *o*      0.23410E-08 0.00000E+00 0.23419E-01
+  8 u236     0.20331E-08 0.00000E+00 0.00000E+00
+  9 slag     0.14909E-04 0.00000E+00 0.00000E+00
+ 10 tc99     0.18160E-05 0.00000E+00 0.00000E+00
+ 11 rh03     0.93194E-06 0.00000E+00 0.00000E+00
+ 12 ag09     0.25757E-07 0.00000E+00 0.00000E+00
+ 13 cd13     0.19311E-09 0.00000E+00 0.00000E+00
+ 14 xe35     0.71382E-09 0.00000E+00 0.00000E+00
+ 15 sm49     0.52950E-08 0.00000E+00 0.00000E+00
+ 16 sm51     0.17865E-07 0.00000E+00 0.00000E+00
+ 17 eu55     0.42218E-08 0.00000E+00 0.00000E+00
+ 18 gd55     0.29155E-11 0.00000E+00 0.00000E+00
+ 19 gd56     0.96464E-09 0.00000E+00 0.00000E+00
+ 20 gd57     0.22487E-09 0.00000E+00 0.00000E+00
+ 21 np37     0.77985E-11 0.00000E+00 0.00000E+00
+ 22 np39     0.73524E-06 0.00000E+00 0.00000E+00
+ 23 pu38     0.36142E-12 0.00000E+00 0.00000E+00
+ 24 pu39     0.41279E-05 0.00000E+00 0.00000E+00
+ 25 pu40     0.68179E-06 0.00000E+00 0.00000E+00
+ 26 pu41     0.95733E-07 0.00000E+00 0.00000E+00
+ 27 pu42     0.67675E-08 0.00000E+00 0.00000E+00
+ 28 am41     0.99163E-10 0.00000E+00 0.00000E+00
+ 29 am2m     0.56285E-12 0.00000E+00 0.00000E+00
+ 30 am43     0.75505E-10 0.00000E+00 0.00000E+00
+ 31 cm42     0.69514E-11 0.00000E+00 0.00000E+00
+ 32 cm44     0.14900E-11 0.00000E+00 0.00000E+00
+ 33 cm45     0.57137E-14 0.00000E+00 0.00000E+00
+ 34 sm52     0.16220E-06 0.00000E+00 0.00000E+00
+ 35 xe31     0.81088E-06 0.00000E+00 0.00000E+00
+ 36 cs33     0.19862E-05 0.00000E+00 0.00000E+00
+ 37 nd45     0.11385E-05 0.00000E+00 0.00000E+00
+ 38 nd43     0.15890E-05 0.00000E+00 0.00000E+00
+ 39 pm47     0.62076E-06 0.00000E+00 0.00000E+00
+ 40 mo95     0.19053E-05 0.00000E+00 0.00000E+00
+ 41 cs34     0.31587E-07 0.00000E+00 0.00000E+00
+ 42 pr41     0.17235E-05 0.00000E+00 0.00000E+00
+ 43 pm48     0.88409E-08 0.00000E+00 0.00000E+00
+ 44 pm8m     0.25009E-08 0.00000E+00 0.00000E+00
+ 45 rh05     0.11871E-07 0.00000E+00 0.00000E+00
+ 46 pm49     0.28532E-07 0.00000E+00 0.00000E+00
+ 47 kr83     0.15156E-06 0.00000E+00 0.00000E+00
+ 48 ru01     0.15126E-05 0.00000E+00 0.00000E+00
+ 49 pd05     0.14740E-06 0.00000E+00 0.00000E+00
+ 50 cs35     0.50153E-07 0.00000E+00 0.00000E+00
+ 51 sm50     0.23689E-06 0.00000E+00 0.00000E+00
+ 52 eu51     0.36479E-08 0.00000E+00 0.00000E+00
+ 53 eu53     0.19056E-07 0.00000E+00 0.00000E+00
+ 54 eu54     0.91030E-09 0.00000E+00 0.00000E+00
+ 55 gd54     0.17572E-11 0.00000E+00 0.00000E+00
+ 56 am42     0.12286E-11 0.00000E+00 0.00000E+00
+ 57 cm43     0.15176E-13 0.00000E+00 0.00000E+00
+ 60 u235     0.98229E-07 0.00000E+00 0.00000E+00
+ 63 u234     0.25297E-05 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.2101       1.8718       1.0559      0.86819      0.70523    
+ s0z(n)=    1.032323      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   24.058     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp= 1000K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  300K
+    >>  K-inf(MLT)= 0.87414 Balance= 1.00429 NU= 2.60 FI-Sum=  1.42E+03
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.15690     ***k(itt)= 1.15691     ***k(integ)= 1.15690    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.29000E+00 0.34000E+00 0.48000E+00
+ temper   0.10000E+04 0.60000E+03 0.57900E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=63
+  1 u233     0.62285E-04 0.00000E+00 0.00000E+00
+  2 u238     0.14132E-02 0.00000E+00 0.00000E+00
+  3 o        0.34080E-02 0.00000E+00 0.00000E+00
+  4 zr       0.00000E+00 0.43010E-01 0.00000E+00
+  5 *h*      0.46830E-08 0.00000E+00 0.46838E-01
+  6 *o*      0.23410E-08 0.00000E+00 0.23419E-01
+  8 u236     0.44717E-08 0.00000E+00 0.00000E+00
+  9 slag     0.19251E-04 0.00000E+00 0.00000E+00
+ 10 tc99     0.23196E-05 0.00000E+00 0.00000E+00
+ 11 rh03     0.11869E-05 0.00000E+00 0.00000E+00
+ 12 ag09     0.39314E-07 0.00000E+00 0.00000E+00
+ 13 cd13     0.19802E-09 0.00000E+00 0.00000E+00
+ 14 xe35     0.66712E-09 0.00000E+00 0.00000E+00
+ 15 sm49     0.53141E-08 0.00000E+00 0.00000E+00
+ 16 sm51     0.17101E-07 0.00000E+00 0.00000E+00
+ 17 eu55     0.49317E-08 0.00000E+00 0.00000E+00
+ 18 gd55     0.31614E-11 0.00000E+00 0.00000E+00
+ 19 gd56     0.10709E-08 0.00000E+00 0.00000E+00
+ 20 gd57     0.24798E-09 0.00000E+00 0.00000E+00
+ 21 np37     0.22546E-10 0.00000E+00 0.00000E+00
+ 22 np39     0.77517E-06 0.00000E+00 0.00000E+00
+ 23 pu38     0.15322E-11 0.00000E+00 0.00000E+00
+ 24 pu39     0.48217E-05 0.00000E+00 0.00000E+00
+ 25 pu40     0.10742E-05 0.00000E+00 0.00000E+00
+ 26 pu41     0.19161E-06 0.00000E+00 0.00000E+00
+ 27 pu42     0.19077E-07 0.00000E+00 0.00000E+00
+ 28 am41     0.25443E-09 0.00000E+00 0.00000E+00
+ 29 am2m     0.16956E-11 0.00000E+00 0.00000E+00
+ 30 am43     0.28849E-09 0.00000E+00 0.00000E+00
+ 31 cm42     0.25775E-10 0.00000E+00 0.00000E+00
+ 32 cm44     0.77389E-11 0.00000E+00 0.00000E+00
+ 33 cm45     0.37802E-13 0.00000E+00 0.00000E+00
+ 34 sm52     0.21033E-06 0.00000E+00 0.00000E+00
+ 35 xe31     0.10306E-05 0.00000E+00 0.00000E+00
+ 36 cs33     0.25340E-05 0.00000E+00 0.00000E+00
+ 37 nd45     0.14463E-05 0.00000E+00 0.00000E+00
+ 38 nd43     0.19627E-05 0.00000E+00 0.00000E+00
+ 39 pm47     0.76892E-06 0.00000E+00 0.00000E+00
+ 40 mo95     0.24276E-05 0.00000E+00 0.00000E+00
+ 41 cs34     0.53366E-07 0.00000E+00 0.00000E+00
+ 42 pr41     0.22040E-05 0.00000E+00 0.00000E+00
+ 43 pm48     0.11988E-07 0.00000E+00 0.00000E+00
+ 44 pm8m     0.31045E-08 0.00000E+00 0.00000E+00
+ 45 rh05     0.13128E-07 0.00000E+00 0.00000E+00
+ 46 pm49     0.30887E-07 0.00000E+00 0.00000E+00
+ 47 kr83     0.18916E-06 0.00000E+00 0.00000E+00
+ 48 ru01     0.19376E-05 0.00000E+00 0.00000E+00
+ 49 pd05     0.20623E-06 0.00000E+00 0.00000E+00
+ 50 cs35     0.62641E-07 0.00000E+00 0.00000E+00
+ 51 sm50     0.32342E-06 0.00000E+00 0.00000E+00
+ 52 eu51     0.56107E-08 0.00000E+00 0.00000E+00
+ 53 eu53     0.33866E-07 0.00000E+00 0.00000E+00
+ 54 eu54     0.19483E-08 0.00000E+00 0.00000E+00
+ 55 gd54     0.48935E-11 0.00000E+00 0.00000E+00
+ 56 am42     0.34686E-11 0.00000E+00 0.00000E+00
+ 57 cm43     0.76332E-13 0.00000E+00 0.00000E+00
+ 60 u235     0.15842E-06 0.00000E+00 0.00000E+00
+ 63 u234     0.31352E-05 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.1569       1.8163       1.0536      0.86938      0.69543    
+ s0z(n)=    1.032323      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   29.437     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp= 1000K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  300K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.10114     ***k(itt)= 1.10114     ***k(integ)= 1.10114    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.29000E+00 0.34000E+00 0.48000E+00
+ temper   0.10000E+04 0.60000E+03 0.57900E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=63
+  1 u233     0.54665E-04 0.00000E+00 0.00000E+00
+  2 u238     0.14107E-02 0.00000E+00 0.00000E+00
+  3 o        0.34080E-02 0.00000E+00 0.00000E+00
+  4 zr       0.00000E+00 0.43010E-01 0.00000E+00
+  5 *h*      0.46830E-08 0.00000E+00 0.46838E-01
+  6 *o*      0.23410E-08 0.00000E+00 0.23419E-01
+  8 u236     0.84827E-08 0.00000E+00 0.00000E+00
+  9 slag     0.23646E-04 0.00000E+00 0.00000E+00
+ 10 tc99     0.28156E-05 0.00000E+00 0.00000E+00
+ 11 rh03     0.14338E-05 0.00000E+00 0.00000E+00
+ 12 ag09     0.55527E-07 0.00000E+00 0.00000E+00
+ 13 cd13     0.20080E-09 0.00000E+00 0.00000E+00
+ 14 xe35     0.61897E-09 0.00000E+00 0.00000E+00
+ 15 sm49     0.52946E-08 0.00000E+00 0.00000E+00
+ 16 sm51     0.16191E-07 0.00000E+00 0.00000E+00
+ 17 eu55     0.58129E-08 0.00000E+00 0.00000E+00
+ 18 gd55     0.34234E-11 0.00000E+00 0.00000E+00
+ 19 gd56     0.12016E-08 0.00000E+00 0.00000E+00
+ 20 gd57     0.27480E-09 0.00000E+00 0.00000E+00
+ 21 np37     0.53526E-10 0.00000E+00 0.00000E+00
+ 22 np39     0.82168E-06 0.00000E+00 0.00000E+00
+ 23 pu38     0.48733E-11 0.00000E+00 0.00000E+00
+ 24 pu39     0.53005E-05 0.00000E+00 0.00000E+00
+ 25 pu40     0.15018E-05 0.00000E+00 0.00000E+00
+ 26 pu41     0.32320E-06 0.00000E+00 0.00000E+00
+ 27 pu42     0.43085E-07 0.00000E+00 0.00000E+00
+ 28 am41     0.51823E-09 0.00000E+00 0.00000E+00
+ 29 am2m     0.38599E-11 0.00000E+00 0.00000E+00
+ 30 am43     0.83784E-09 0.00000E+00 0.00000E+00
+ 31 cm42     0.71506E-10 0.00000E+00 0.00000E+00
+ 32 cm44     0.29021E-10 0.00000E+00 0.00000E+00
+ 33 cm45     0.17085E-12 0.00000E+00 0.00000E+00
+ 34 sm52     0.25606E-06 0.00000E+00 0.00000E+00
+ 35 xe31     0.12434E-05 0.00000E+00 0.00000E+00
+ 36 cs33     0.30716E-05 0.00000E+00 0.00000E+00
+ 37 nd45     0.17456E-05 0.00000E+00 0.00000E+00
+ 38 nd43     0.22966E-05 0.00000E+00 0.00000E+00
+ 39 pm47     0.90323E-06 0.00000E+00 0.00000E+00
+ 40 mo95     0.29397E-05 0.00000E+00 0.00000E+00
+ 41 cs34     0.81666E-07 0.00000E+00 0.00000E+00
+ 42 pr41     0.26790E-05 0.00000E+00 0.00000E+00
+ 43 pm48     0.15206E-07 0.00000E+00 0.00000E+00
+ 44 pm8m     0.36328E-08 0.00000E+00 0.00000E+00
+ 45 rh05     0.14252E-07 0.00000E+00 0.00000E+00
+ 46 pm49     0.33449E-07 0.00000E+00 0.00000E+00
+ 47 kr83     0.22395E-06 0.00000E+00 0.00000E+00
+ 48 ru01     0.23592E-05 0.00000E+00 0.00000E+00
+ 49 pd05     0.27039E-06 0.00000E+00 0.00000E+00
+ 50 cs35     0.74213E-07 0.00000E+00 0.00000E+00
+ 51 sm50     0.41521E-06 0.00000E+00 0.00000E+00
+ 52 eu51     0.77693E-08 0.00000E+00 0.00000E+00
+ 53 eu53     0.53505E-07 0.00000E+00 0.00000E+00
+ 54 eu54     0.35275E-08 0.00000E+00 0.00000E+00
+ 55 gd54     0.10964E-10 0.00000E+00 0.00000E+00
+ 56 am42     0.77544E-11 0.00000E+00 0.00000E+00
+ 57 cm43     0.27222E-12 0.00000E+00 0.00000E+00
+ 60 u235     0.23061E-06 0.00000E+00 0.00000E+00
+ 63 u234     0.36864E-05 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.1011       1.7581       1.0513      0.87054      0.68439    
+ s0z(n)=    1.032323      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   34.826     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp= 1000K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  300K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.04279     ***k(itt)= 1.04280     ***k(integ)= 1.04279    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.29000E+00 0.34000E+00 0.48000E+00
+ temper   0.10000E+04 0.60000E+03 0.57900E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=63
+  1 u233     0.47408E-04 0.00000E+00 0.00000E+00
+  2 u238     0.14080E-02 0.00000E+00 0.00000E+00
+  3 o        0.34080E-02 0.00000E+00 0.00000E+00
+  4 zr       0.00000E+00 0.43010E-01 0.00000E+00
+  5 *h*      0.46830E-08 0.00000E+00 0.46838E-01
+  6 *o*      0.23410E-08 0.00000E+00 0.23419E-01
+  8 u236     0.14602E-07 0.00000E+00 0.00000E+00
+  9 slag     0.28104E-04 0.00000E+00 0.00000E+00
+ 10 tc99     0.33031E-05 0.00000E+00 0.00000E+00
+ 11 rh03     0.16705E-05 0.00000E+00 0.00000E+00
+ 12 ag09     0.74473E-07 0.00000E+00 0.00000E+00
+ 13 cd13     0.20189E-09 0.00000E+00 0.00000E+00
+ 14 xe35     0.57025E-09 0.00000E+00 0.00000E+00
+ 15 sm49     0.52423E-08 0.00000E+00 0.00000E+00
+ 16 sm51     0.15205E-07 0.00000E+00 0.00000E+00
+ 17 eu55     0.69814E-08 0.00000E+00 0.00000E+00
+ 18 gd55     0.37499E-11 0.00000E+00 0.00000E+00
+ 19 gd56     0.13790E-08 0.00000E+00 0.00000E+00
+ 20 gd57     0.30983E-09 0.00000E+00 0.00000E+00
+ 21 np37     0.11171E-09 0.00000E+00 0.00000E+00
+ 22 np39     0.87582E-06 0.00000E+00 0.00000E+00
+ 23 pu38     0.12775E-10 0.00000E+00 0.00000E+00
+ 24 pu39     0.56028E-05 0.00000E+00 0.00000E+00
+ 25 pu40     0.19464E-05 0.00000E+00 0.00000E+00
+ 26 pu41     0.48092E-06 0.00000E+00 0.00000E+00
+ 27 pu42     0.83952E-07 0.00000E+00 0.00000E+00
+ 28 am41     0.90102E-09 0.00000E+00 0.00000E+00
+ 29 am2m     0.72856E-11 0.00000E+00 0.00000E+00
+ 30 am43     0.20353E-08 0.00000E+00 0.00000E+00
+ 31 cm42     0.16412E-09 0.00000E+00 0.00000E+00
+ 32 cm44     0.88178E-10 0.00000E+00 0.00000E+00
+ 33 cm45     0.60259E-12 0.00000E+00 0.00000E+00
+ 34 sm52     0.29892E-06 0.00000E+00 0.00000E+00
+ 35 xe31     0.14480E-05 0.00000E+00 0.00000E+00
+ 36 cs33     0.35979E-05 0.00000E+00 0.00000E+00
+ 37 nd45     0.20355E-05 0.00000E+00 0.00000E+00
+ 38 nd43     0.25870E-05 0.00000E+00 0.00000E+00
+ 39 pm47     0.10229E-05 0.00000E+00 0.00000E+00
+ 40 mo95     0.34406E-05 0.00000E+00 0.00000E+00
+ 41 cs34     0.11711E-06 0.00000E+00 0.00000E+00
+ 42 pr41     0.31478E-05 0.00000E+00 0.00000E+00
+ 43 pm48     0.18491E-07 0.00000E+00 0.00000E+00
+ 44 pm8m     0.40838E-08 0.00000E+00 0.00000E+00
+ 45 rh05     0.15265E-07 0.00000E+00 0.00000E+00
+ 46 pm49     0.36269E-07 0.00000E+00 0.00000E+00
+ 47 kr83     0.25563E-06 0.00000E+00 0.00000E+00
+ 48 ru01     0.27773E-05 0.00000E+00 0.00000E+00
+ 49 pd05     0.33921E-06 0.00000E+00 0.00000E+00
+ 50 cs35     0.84848E-07 0.00000E+00 0.00000E+00
+ 51 sm50     0.51240E-06 0.00000E+00 0.00000E+00
+ 52 eu51     0.10090E-07 0.00000E+00 0.00000E+00
+ 53 eu53     0.78239E-07 0.00000E+00 0.00000E+00
+ 54 eu54     0.57188E-08 0.00000E+00 0.00000E+00
+ 55 gd54     0.21264E-10 0.00000E+00 0.00000E+00
+ 56 am42     0.14838E-10 0.00000E+00 0.00000E+00
+ 57 cm43     0.77602E-12 0.00000E+00 0.00000E+00
+ 60 u235     0.31325E-06 0.00000E+00 0.00000E+00
+ 63 u234     0.41802E-05 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.0428       1.6966       1.0491      0.87166      0.67216    
+ s0z(n)=    1.032323      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   40.225     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : ..\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : ..\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : ..\bin\BNABTHM.lib
+ 

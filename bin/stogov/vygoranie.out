@@ -1,0 +1,622 @@
+ *****          file of input data set *******
+ *****          file of input data set *******
+:poly
+ &vvod
+ @ 1 tvel  cell@   rcel(1,1)=0.386,0.455,0.670,
+                   ncelsos(1,1)=1,2,3,
+ @ 2 svp-2 cell@   rcel(1,2)=0.386,0.455,0.670,
+                   ncelsos(1,2)=4,2,3,
+                                                                                                                        
+  t=      1.000e+03, 0.576e+03, 0.576e+03, 0.576e+03
+@-----------------------------------------------------
+ troiz=
+  @       1 tv_1     2 zr_ob_tv 3 h2o      4 svp
+ @ *h*  @ 0.000000 , 0.000000 , 0.047600 , 0.000000 ,
+ @ *o*  @ 0.000000 , 0.000000 , 0.023800 , 0.000000 ,
+ @ zr   @ 0.000000 , 0.042860 , 0.000000 , 0.000000 ,
+ @ pu39 @ 0.000690 , 0.000000 , 0.000000 , 0.000000 ,
+ @ u235 @ 0.000010 , 0.000000 , 0.000000 , 0.000000 ,
+ @ u238 @ 0.018480 , 0.000000 , 0.000000 , 0.000000 ,
+ @ o    @ 0.038550 , 0.000000 , 0.000000 , 0.000000 ,
+ @ al   @ 0.002290 , 0.000000 , 0.000000 , 0.062850 ,
+ @ b-11 @ 0.000070 , 0.000000 , 0.000000 , 0.001970 ,
+ @ b-10 @ 0.000020 , 0.000000 , 0.000060 , 0.000430 ,
+                                                                                                                        
+@----------------------------------------------------
+ ntcell=1
+@krat= 318,12,
+@alout=
+@     0.960656, 0.039344,
+@     1.000000, 0.000000,
+                                                                                                                        
+ material(1)='chmc',
+ &end
+*h*
+*o*
+zr
+pu39
+u235
+u238
+o
+al
+b-11
+b-10
+****
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+:macro
+ &vvod
+  et=10.5e+6,2.15,2.15,0.,
+ @nbv=1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+ &end
+@:stop
+:dina
+ &vvod
+ &end
+:fier
+ &vvod &end
+                                                                                                                        
+@ 1 step - 365. days!----------
+:burn
+ &vvod qv=105,dtim=365.0,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+ @ 2 step - 365. days!----------
+:burn
+ &vvod qv=105,dtim=365.0,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+ @ 3 step - 365. days!----------
+:burn
+ &vvod qv=105,dtim=365.0,
+ &end
+:corr
+ &vvod &end
+:fier
+ &vvod &end
+                                                                                                                        
+:stop
+ ***** end of   file of input data set *******
+:poly                                                                           
+  rout and rin were constructed
+Rout= 0.386, 0.455, 0.670, 0.386, 0.455, 0.670,
+Rin = 0.000, 0.386, 0.455, 0.000, 0.386, 0.455,
+  nsos  was constructed
+nsos=  1,  2,  3,  4,  2,  3,
+ definition izotr in sos           1:izotr=   6.000000    
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--cefzad  -- programm standart value --cefzad  =  0.100000E+01
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--bakl    -- programm standart value --bakl    =  0.000000E+00
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--alin    -- programm standart value --alin    =  0.000000E+00
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--alout   -- programm standart value --alout   =  0.100000E+01
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--alcorr  -- programm standart value --alcorr  =  0.100000E+01
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--rin     -- programm standart value --rin     =  0.000000E+00  0.386000E+00
+     0.455000E+00  0.000000E+00  0.386000E+00  0.455000E+00
+  *******<< check input data>> programm declare *******
+    --uncorrekted difinition--rin     --and--ntcell  --programm use difinition value--rin     --if this possible--
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--nbv     -- programm standart value --nbv     =    1    1    1
+  *******<< check input data>> programm declare *******
+    --undeclared parametr--et      -- programm standart value --et      =  0.105000E+08  0.215000E+01
+     0.215000E+01  0.000000E+00
+    ????  storage for pr. getter =      300 ?? common /rrr/ rab(        0 )  ????
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.38600E+00 0.45500E+00 0.67000E+00
+ temper   0.10000E+04 0.57600E+03 0.57600E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=65
+  1 *h*      0.00000E+00 0.00000E+00 0.47600E-01
+  2 *o*      0.00000E+00 0.00000E+00 0.23800E-01
+  3 zr       0.00000E+00 0.42860E-01 0.00000E+00
+  4 pu39     0.69000E-03 0.00000E+00 0.00000E+00
+  5 u235     0.10000E-04 0.00000E+00 0.00000E+00
+  6 u238     0.18480E-01 0.00000E+00 0.00000E+00
+  7 o        0.38550E-01 0.00000E+00 0.00000E+00
+  8 al       0.22900E-02 0.00000E+00 0.00000E+00
+  9 b-11     0.70000E-04 0.00000E+00 0.00000E+00
+ 10 b-10     0.20000E-04 0.00000E+00 0.60000E-04
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : D:\Getera-93\get-93\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : D:\Getera-93\get-93\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : D:\Getera-93\get-93\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.00187     ***k(itt)= 1.00188     ***k(integ)= 1.00187    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.38600E+00 0.45500E+00 0.67000E+00
+ temper   0.10000E+04 0.57600E+03 0.57600E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=65
+  1 *h*      0.00000E+00 0.00000E+00 0.47600E-01
+  2 *o*      0.00000E+00 0.00000E+00 0.23800E-01
+  3 zr       0.00000E+00 0.42860E-01 0.00000E+00
+  4 pu39     0.69000E-03 0.00000E+00 0.00000E+00
+  5 u235     0.10000E-04 0.00000E+00 0.00000E+00
+  6 u238     0.18480E-01 0.00000E+00 0.00000E+00
+  7 o        0.38550E-01 0.00000E+00 0.00000E+00
+  8 al       0.22900E-02 0.00000E+00 0.00000E+00
+  9 b-11     0.70000E-04 0.00000E+00 0.00000E+00
+ 10 b-10     0.20000E-04 0.00000E+00 0.60000E-04
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.0019       1.6678       1.3822      0.59262      0.73334    
+ s0z(n)=   0.9874939      0.0000000E+00  0.0000000E+00
+:macro                                                                          
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+    -------------------------------------------------------------------------------
+    * n group   * e(i)        * e(i+1)      *spect neutron fission  *
+          1       0.10500E+08    2.1544           0.99889    
+          2        2.1544        0.0000           0.13056E-08
+    *******************************************************************************
+                                       **    macro cross section    **
+    *******************************************************************************
+    ** n zone    1 vzone=  1.4103     /  1  2  3
+*grp*flux 1/cm2c  * stotal      * sabs        * sfis.       * nu$sfis.    * 1/3*strans  *1/aver.veloci*aver power
+  1   27.66555     0.4926004     0.1043691E-01 0.2462903E-02 0.7091171E-02  1.453272     0.1207592E-05 0.6794320     0.2743878    
+  2   2.364072      1.034726     0.1777537     0.7621944E-01 0.2174075     0.4135227     0.4951404E-05  1.223083     0.7256122    
+                                       * matric. scat.cross. sec. from i to j  *
+       i / j -->            1           2
+       i        1 0.4669634     0.1520011E-01
+       i        2 0.1271936E-03 0.8568454    
+:dina                                                                           
+    -------------------------------------------------------------------------------
+    * n group   * e(i)        * e(i+1)
+          1       0.20000E+08    0.0000    
+    -------------------------------------------------------------------------------
+          fraction of delay neutrons -betaj
+           beta`j
+           one group beta * 10e-4
+  
+          condensated zone : 1
+ nt      1           2           3           4           5           6
+ ne: 1  0.0000      0.0000      0.0000      0.0000      0.0000      0.0000    
+ ne: 1  0.0000      0.0000      0.0000      0.0000      0.0000      0.0000    
+      0.0000000E+00
+    -------------------------------------------------------------------------------
+    * n group   * e(i)        * e(i+1)
+          1       0.20000E+08    0.0000    
+    -------------------------------------------------------------------------------
+          decay constant -lambdaj
+           one group lambda
+  
+          condensated zone : 1
+ nt      1           2           3           4           5           6
+ ne: 1  0.0000      0.0000      0.0000      0.0000      0.0000      0.0000    
+ 1-group lambda   0.0000000E+00
+    -------------------------------------------------------------------------------
+    * n group   * e(i)        * e(i+1)
+          1       0.20000E+08    0.0000    
+    -------------------------------------------------------------------------------
+          spectrum -xj
+  
+          condensated zone : 1
+ nt      1           2           3           4           5           6
+ ne: 1  0.0000      0.0000      0.0000      0.0000      0.0000      0.0000    
+    -------------------------------------------------------------------------------
+    * n group   * e(i)        * e(i+1)
+          1       0.10500E+08    0.0000    
+    -------------------------------------------------------------------------------
+          production part constant -alfa (id xe pm)
+  
+          condensated zone : 1
+           1  6.2294323E-02  2.7418246E-03  1.3564408E-02
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.0019       1.6678       1.3822      0.59262      0.73334    
+ s0z(n)=   0.9874939      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   14.140     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : D:\Getera-93\get-93\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : D:\Getera-93\get-93\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : D:\Getera-93\get-93\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.08563     ***k(itt)= 1.08562     ***k(integ)= 1.08563    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.38600E+00 0.45500E+00 0.67000E+00
+ temper   0.10000E+04 0.57600E+03 0.57600E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=65
+  1 *h*      0.00000E+00 0.00000E+00 0.47600E-01
+  2 *o*      0.00000E+00 0.00000E+00 0.23800E-01
+  3 zr       0.00000E+00 0.42860E-01 0.00000E+00
+  4 pu39     0.51912E-03 0.00000E+00 0.00000E+00
+  5 u235     0.76526E-05 0.00000E+00 0.00000E+00
+  6 u238     0.18259E-01 0.00000E+00 0.00000E+00
+  7 o        0.38550E-01 0.00000E+00 0.00000E+00
+  8 al       0.22900E-02 0.00000E+00 0.00000E+00
+  9 b-11     0.84552E-04 0.00000E+00 0.47493E-04
+ 10 b-10     0.54478E-05 0.00000E+00 0.12507E-04
+ 13 u236     0.51563E-06 0.00000E+00 0.00000E+00
+ 14 slag     0.11444E-03 0.00000E+00 0.00000E+00
+ 15 tc99     0.16193E-04 0.00000E+00 0.00000E+00
+ 16 rh03     0.14581E-04 0.00000E+00 0.00000E+00
+ 17 ag09     0.23755E-05 0.00000E+00 0.00000E+00
+ 18 cd13     0.20441E-07 0.00000E+00 0.00000E+00
+ 19 xe35     0.15150E-07 0.00000E+00 0.00000E+00
+ 20 sm49     0.23118E-06 0.00000E+00 0.00000E+00
+ 21 sm51     0.73300E-06 0.00000E+00 0.00000E+00
+ 22 eu55     0.10301E-06 0.00000E+00 0.00000E+00
+ 23 gd55     0.26607E-08 0.00000E+00 0.00000E+00
+ 24 gd56     0.52504E-06 0.00000E+00 0.00000E+00
+ 25 gd57     0.87289E-08 0.00000E+00 0.00000E+00
+ 26 np37     0.24741E-07 0.00000E+00 0.00000E+00
+ 27 np39     0.18139E-05 0.00000E+00 0.00000E+00
+ 28 pu38     0.51997E-07 0.00000E+00 0.00000E+00
+ 29 pu40     0.42515E-04 0.00000E+00 0.00000E+00
+ 30 pu41     0.69251E-04 0.00000E+00 0.00000E+00
+ 31 pu42     0.42436E-05 0.00000E+00 0.00000E+00
+ 32 am41     0.11972E-05 0.00000E+00 0.00000E+00
+ 33 am2m     0.15710E-07 0.00000E+00 0.00000E+00
+ 34 am43     0.41211E-06 0.00000E+00 0.00000E+00
+ 35 cm42     0.13605E-06 0.00000E+00 0.00000E+00
+ 36 cm44     0.56086E-07 0.00000E+00 0.00000E+00
+ 37 cm45     0.16723E-08 0.00000E+00 0.00000E+00
+ 42 sm52     0.21966E-05 0.00000E+00 0.00000E+00
+ 43 xe31     0.87180E-05 0.00000E+00 0.00000E+00
+ 44 cs33     0.17797E-04 0.00000E+00 0.00000E+00
+ 45 nd45     0.83965E-05 0.00000E+00 0.00000E+00
+ 46 nd43     0.11674E-04 0.00000E+00 0.00000E+00
+ 47 pm47     0.38555E-05 0.00000E+00 0.00000E+00
+ 48 mo95     0.13291E-04 0.00000E+00 0.00000E+00
+ 49 cs34     0.97912E-06 0.00000E+00 0.00000E+00
+ 50 pr41     0.14842E-04 0.00000E+00 0.00000E+00
+ 51 pm48     0.27048E-07 0.00000E+00 0.00000E+00
+ 52 pm8m     0.77389E-07 0.00000E+00 0.00000E+00
+ 53 rh05     0.78357E-07 0.00000E+00 0.00000E+00
+ 54 pm49     0.38479E-07 0.00000E+00 0.00000E+00
+ 55 kr83     0.80181E-06 0.00000E+00 0.00000E+00
+ 56 ru01     0.13655E-04 0.00000E+00 0.00000E+00
+ 57 pd05     0.13568E-04 0.00000E+00 0.00000E+00
+ 58 cs35     0.10408E-04 0.00000E+00 0.00000E+00
+ 59 sm50     0.36755E-05 0.00000E+00 0.00000E+00
+ 60 eu51     0.80692E-07 0.00000E+00 0.00000E+00
+ 61 eu53     0.79775E-06 0.00000E+00 0.00000E+00
+ 62 eu54     0.11019E-06 0.00000E+00 0.00000E+00
+ 63 gd54     0.23927E-08 0.00000E+00 0.00000E+00
+ 64 am42     0.19599E-08 0.00000E+00 0.00000E+00
+ 65 cm43     0.12717E-08 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.0856       1.4686       1.3426      0.60365      0.91212    
+ s0z(n)=   0.9874939      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   28.108     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : D:\Getera-93\get-93\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : D:\Getera-93\get-93\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : D:\Getera-93\get-93\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)= 1.05349     ***k(itt)= 1.05349     ***k(integ)= 1.05349    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.38600E+00 0.45500E+00 0.67000E+00
+ temper   0.10000E+04 0.57600E+03 0.57600E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=65
+  1 *h*      0.00000E+00 0.00000E+00 0.47600E-01
+  2 *o*      0.00000E+00 0.00000E+00 0.23800E-01
+  3 zr       0.00000E+00 0.42860E-01 0.00000E+00
+  4 pu39     0.38835E-03 0.00000E+00 0.00000E+00
+  5 u235     0.57267E-05 0.00000E+00 0.00000E+00
+  6 u238     0.18050E-01 0.00000E+00 0.00000E+00
+  7 o        0.38550E-01 0.00000E+00 0.00000E+00
+  8 al       0.22900E-02 0.00000E+00 0.00000E+00
+  9 b-11     0.88731E-04 0.00000E+00 0.57874E-04
+ 10 b-10     0.12685E-05 0.00000E+00 0.21257E-05
+ 13 u236     0.87242E-06 0.00000E+00 0.00000E+00
+ 14 slag     0.24134E-03 0.00000E+00 0.00000E+00
+ 15 tc99     0.30713E-04 0.00000E+00 0.00000E+00
+ 16 rh03     0.25164E-04 0.00000E+00 0.00000E+00
+ 17 ag09     0.42002E-05 0.00000E+00 0.00000E+00
+ 18 cd13     0.16296E-07 0.00000E+00 0.00000E+00
+ 19 xe35     0.12447E-07 0.00000E+00 0.00000E+00
+ 20 sm49     0.18723E-06 0.00000E+00 0.00000E+00
+ 21 sm51     0.67297E-06 0.00000E+00 0.00000E+00
+ 22 eu55     0.18101E-06 0.00000E+00 0.00000E+00
+ 23 gd55     0.35179E-08 0.00000E+00 0.00000E+00
+ 24 gd56     0.13908E-05 0.00000E+00 0.00000E+00
+ 25 gd57     0.71274E-08 0.00000E+00 0.00000E+00
+ 26 np37     0.78139E-07 0.00000E+00 0.00000E+00
+ 27 np39     0.17131E-05 0.00000E+00 0.00000E+00
+ 28 pu38     0.61320E-06 0.00000E+00 0.00000E+00
+ 29 pu40     0.84253E-04 0.00000E+00 0.00000E+00
+ 30 pu41     0.85081E-04 0.00000E+00 0.00000E+00
+ 31 pu42     0.14286E-04 0.00000E+00 0.00000E+00
+ 32 am41     0.31903E-05 0.00000E+00 0.00000E+00
+ 33 am2m     0.62154E-07 0.00000E+00 0.00000E+00
+ 34 am43     0.27884E-05 0.00000E+00 0.00000E+00
+ 35 cm42     0.66553E-06 0.00000E+00 0.00000E+00
+ 36 cm44     0.74879E-06 0.00000E+00 0.00000E+00
+ 37 cm45     0.40558E-07 0.00000E+00 0.00000E+00
+ 42 sm52     0.36752E-05 0.00000E+00 0.00000E+00
+ 43 xe31     0.15004E-04 0.00000E+00 0.00000E+00
+ 44 cs33     0.33216E-04 0.00000E+00 0.00000E+00
+ 45 nd45     0.15922E-04 0.00000E+00 0.00000E+00
+ 46 nd43     0.21594E-04 0.00000E+00 0.00000E+00
+ 47 pm47     0.55114E-05 0.00000E+00 0.00000E+00
+ 48 mo95     0.25397E-04 0.00000E+00 0.00000E+00
+ 49 cs34     0.30540E-05 0.00000E+00 0.00000E+00
+ 50 pr41     0.28966E-04 0.00000E+00 0.00000E+00
+ 51 pm48     0.35080E-07 0.00000E+00 0.00000E+00
+ 52 pm8m     0.92232E-07 0.00000E+00 0.00000E+00
+ 53 rh05     0.73800E-07 0.00000E+00 0.00000E+00
+ 54 pm49     0.39325E-07 0.00000E+00 0.00000E+00
+ 55 kr83     0.14822E-05 0.00000E+00 0.00000E+00
+ 56 ru01     0.26459E-04 0.00000E+00 0.00000E+00
+ 57 pd05     0.26467E-04 0.00000E+00 0.00000E+00
+ 58 cs35     0.19064E-04 0.00000E+00 0.00000E+00
+ 59 sm50     0.77575E-05 0.00000E+00 0.00000E+00
+ 60 eu51     0.21822E-06 0.00000E+00 0.00000E+00
+ 61 eu53     0.25551E-05 0.00000E+00 0.00000E+00
+ 62 eu54     0.55877E-06 0.00000E+00 0.00000E+00
+ 63 gd54     0.27481E-07 0.00000E+00 0.00000E+00
+ 64 am42     0.52303E-08 0.00000E+00 0.00000E+00
+ 65 cm43     0.12955E-07 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+   1.0535       1.3822       1.3142      0.60439      0.95954    
+ s0z(n)=   0.9874939      0.0000000E+00  0.0000000E+00
+:burn                                                                           
+ *** average burn up =   42.275     (mbt*day)/(kg hm)
+    > CONSYST Program Ver: 98.01 > started at  0: 0: 0:  
+    { Manturov G., E-mail: abbn@ippe.rssi.ru}
+ 
+       -------------------------------
+ 
+       CONSYST INPUT DATA READ FROM : cons.dat
+       CONSYST PROTOCOL STORED IN   : RESULT
+       GMF X-SECTION'S FILE         : OUT
+       TEMPORARY FILE               : RAB
+       ABBN BASIC DATA SET FROM     : D:\Getera-93\get-93\bin\Bnab90.lib
+       ABBN MULTIC DATA SET FROM    : D:\Getera-93\get-93\bin\Bnabmlt.lib
+       ABBN THERMAL DATA SET FROM   : D:\Getera-93\get-93\bin\BNABTHM.lib
+ 
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  500K
+    >   Include Thermal Matrix > H(H2O):BNABTHM.BIN   Temp=  600K
+    > CONSYST finished at  0: 0: 0:  
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ therm. calculation avoided
+ *************************************************
+   ***k(inf)=0.984772     ***k(itt)=0.984768     ***k(integ)=0.984772    ***
+   **bakl=  0.0000     **length= 0.10000E+11  ***
+   **matr.  alout*alcorr a(k,i)(k=1,ncel) ***
+     *  1.0000    
+ lokal kner      in cell ,ru=           1=   1.000000       1.000000    
+:corr                                                                           
+ ------------------------------------------------------------------------------
+  backling =  0.0000000E+00
+ ------------------------------------------------------------------------------
+  number of cells =           1
+          cell number    1  number of zone= 3
+ << geometry characteristics >>
+    geometry of cell- cilindrical index=           2
+  kratnost of cell =   1.000000    
+  inner radius of cell =  0.0000000E+00
+  out square ratio =   1.000000    
+ ------------------------------------------------------------------------------
+ num zone      1           2           3
+ radius   0.38600E+00 0.45500E+00 0.67000E+00
+ temper   0.10000E+04 0.57600E+03 0.57600E+03
+ rez_izot    u238        bad         bad 
+ ------------------------------------------------------------------------------
+    izotop   /             concentration number of izotops=65
+  1 *h*      0.00000E+00 0.00000E+00 0.47600E-01
+  2 *o*      0.00000E+00 0.00000E+00 0.23800E-01
+  3 zr       0.00000E+00 0.42860E-01 0.00000E+00
+  4 pu39     0.29215E-03 0.00000E+00 0.00000E+00
+  5 u235     0.40693E-05 0.00000E+00 0.00000E+00
+  6 u238     0.17833E-01 0.00000E+00 0.00000E+00
+  7 o        0.38550E-01 0.00000E+00 0.00000E+00
+  8 al       0.22900E-02 0.00000E+00 0.00000E+00
+  9 b-11     0.89780E-04 0.00000E+00 0.59739E-04
+ 10 b-10     0.21956E-06 0.00000E+00 0.26075E-06
+ 13 u236     0.11239E-05 0.00000E+00 0.00000E+00
+ 14 slag     0.38196E-03 0.00000E+00 0.00000E+00
+ 15 tc99     0.43995E-04 0.00000E+00 0.00000E+00
+ 16 rh03     0.32896E-04 0.00000E+00 0.00000E+00
+ 17 ag09     0.55145E-05 0.00000E+00 0.00000E+00
+ 18 cd13     0.13118E-07 0.00000E+00 0.00000E+00
+ 19 xe35     0.10632E-07 0.00000E+00 0.00000E+00
+ 20 sm49     0.15280E-06 0.00000E+00 0.00000E+00
+ 21 sm51     0.54316E-06 0.00000E+00 0.00000E+00
+ 22 eu55     0.32623E-06 0.00000E+00 0.00000E+00
+ 23 gd55     0.49820E-08 0.00000E+00 0.00000E+00
+ 24 gd56     0.30547E-05 0.00000E+00 0.00000E+00
+ 25 gd57     0.66863E-08 0.00000E+00 0.00000E+00
+ 26 np37     0.14525E-06 0.00000E+00 0.00000E+00
+ 27 np39     0.17925E-05 0.00000E+00 0.00000E+00
+ 28 pu38     0.18785E-05 0.00000E+00 0.00000E+00
+ 29 pu40     0.10802E-03 0.00000E+00 0.00000E+00
+ 30 pu41     0.88293E-04 0.00000E+00 0.00000E+00
+ 31 pu42     0.26220E-04 0.00000E+00 0.00000E+00
+ 32 am41     0.43175E-05 0.00000E+00 0.00000E+00
+ 33 am2m     0.89693E-07 0.00000E+00 0.00000E+00
+ 34 am43     0.68217E-05 0.00000E+00 0.00000E+00
+ 35 cm42     0.12499E-05 0.00000E+00 0.00000E+00
+ 36 cm44     0.28581E-05 0.00000E+00 0.00000E+00
+ 37 cm45     0.21048E-06 0.00000E+00 0.00000E+00
+ 42 sm52     0.42939E-05 0.00000E+00 0.00000E+00
+ 43 xe31     0.19449E-04 0.00000E+00 0.00000E+00
+ 44 cs33     0.46808E-04 0.00000E+00 0.00000E+00
+ 45 nd45     0.22766E-04 0.00000E+00 0.00000E+00
+ 46 nd43     0.29752E-04 0.00000E+00 0.00000E+00
+ 47 pm47     0.61744E-05 0.00000E+00 0.00000E+00
+ 48 mo95     0.36744E-04 0.00000E+00 0.00000E+00
+ 49 cs34     0.58070E-05 0.00000E+00 0.00000E+00
+ 50 pr41     0.42817E-04 0.00000E+00 0.00000E+00
+ 51 pm48     0.40231E-07 0.00000E+00 0.00000E+00
+ 52 pm8m     0.91958E-07 0.00000E+00 0.00000E+00
+ 53 rh05     0.73369E-07 0.00000E+00 0.00000E+00
+ 54 pm49     0.41725E-07 0.00000E+00 0.00000E+00
+ 55 kr83     0.20624E-05 0.00000E+00 0.00000E+00
+ 56 ru01     0.38739E-04 0.00000E+00 0.00000E+00
+ 57 pd05     0.38728E-04 0.00000E+00 0.00000E+00
+ 58 cs35     0.26190E-04 0.00000E+00 0.00000E+00
+ 59 sm50     0.11758E-04 0.00000E+00 0.00000E+00
+ 60 eu51     0.35184E-06 0.00000E+00 0.00000E+00
+ 61 eu53     0.44688E-05 0.00000E+00 0.00000E+00
+ 62 eu54     0.11725E-05 0.00000E+00 0.00000E+00
+ 63 gd54     0.97142E-07 0.00000E+00 0.00000E+00
+ 64 am42     0.78189E-08 0.00000E+00 0.00000E+00
+ 65 cm43     0.36043E-07 0.00000E+00 0.00000E+00
+:fier                                                                           
+ condensation boundary was changed from  0.21500E+01 to  0.21544E+01
+*** 4 *** ;egr=  2.1544    
+    keff         nu           mu           fi           teta
+  0.98477       1.3011       1.2996      0.60225      0.96700    
+ s0z(n)=   0.9874939      0.0000000E+00  0.0000000E+00
+:stop                                                                           
