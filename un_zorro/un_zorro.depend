@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1518371742 source:c:\users\delez\desktop\cplusplus\un_zorro\main.cpp
+	<iostream>
+	<fstream>
+

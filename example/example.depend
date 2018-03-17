@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1517166170 source:c:\users\delez\desktop\cplusplus\example\main.cpp
-	<iostream>
+1518205375 source:c:\users\delez\desktop\cplusplus\example\main.cpp
+	<iostream >
 	<string>
+	<stack>
 
 1517166506 source:c:\users\delez\desktop\cplusplus\example\sa.cpp
 
