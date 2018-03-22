@@ -1,0 +1,2 @@
+﻿  un_old_zoro.cpp
+c:\users\user\desktop\cplusplus\un_old_zoro\un_old_zoro\un_old_zoro.cpp(118): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.

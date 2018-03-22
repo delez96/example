@@ -76,7 +76,7 @@ public:
     ofstream output{"old.dat"};
 
     double delta;
-    Tfilter_old(Tpoint p_,double delta_=0.1)
+    Tfilter_old(Tpoint p_,double delta_=10)
     {
         delta=delta_;
         p1=p0=p_;
@@ -101,7 +101,7 @@ public:
 
 int main()
 {
-    ifstream s("C:\\Python\\.idea\\Jpath\\N.TXT ");//ifsteram- входной файловый поток, открытый файл
+    ifstream s("C:\\Users\\User\\Desktop\\cplusplus\\data\\N_N.TXT");//ifsteram- входной файловый поток, открытый файл
     Tpoint point;
     s>>point;
 
